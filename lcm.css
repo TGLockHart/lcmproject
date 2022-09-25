@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+}
+
+body, .container, .box, .property, form{
+    display: flex;
+    align-items: center;
+}
+
+.box, form, body{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+
+}
+
+.heading{
+    margin-top: 100px;
+}
+
+button{
+    width: 500px;
+    height: 100px;
+    font-size: 2rem;
+    background-color: #FF99FF;
+    border-color: #FF99FF;
+    border-radius: 10px;
+    color: #191970;
+}
+
+input[type="number"]{
+    width: 247px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    color: #0000;
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #cd853f;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(135, 206, 250, 1) 0%, rgba(127, 255, 212, 1) 100%);
+    background-image: url(03.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    
+}
+
+.resultLcm{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #000000;
+    font-size: 2rem;
+    color: #ffffff;
+}
